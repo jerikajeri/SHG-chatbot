@@ -1,0 +1,49 @@
+SHG Multilingual Chatbot
+
+An AI-powered multilingual chatbot built for rural women's **Self-Help Groups (SHGs)** in India. It helps users access information about government schemes, loans, savings, and financial literacy — in **any language**, with **voice input and output**.
+
+Features
+
+Multilingual — Ask in Tamil, Hindi, Telugu, English, or any language
+Voice Input — Speak your question using your microphone
+Voice Output — Hear the answer read aloud in your language
+Gemini AI — Powered by Google's Gemini 1.5 Pro
+Chat History — View the full conversation in the session
+Simple UI — Built with Streamlit for easy access
+
+Tech Stack
+
+*Component        
+    Frontend / UI  
+    AI Model        
+    Voice Input    
+    Voice Output    
+    Translation     
+    Language Detect 
+
+*Technology
+    Streamlit 
+    Google Gemini 1.5 Pro
+    SpeechRecognition + PyAudio 
+    gTTS (Google Text-to-Speech)
+    deep-translator (Google Translate)
+    langdetect 
+
+Setup & Installation
+
+1. Clone the repository
+git clone https://github.com/Aslin-Jerika/shg-multilingual-chatbot.git
+cd shg-multilingual-chatbot
+
+2. Install dependencies
+pip install -r requirements.txt
+
+3. Set your Gemini API Key
+Create a `.env` file in the project root:
+GEMINI_API_KEY=your_actual_api_key_here
+Get your free API key at: https://makersuite.google.com/app/apikey
+
+4. Run the app
+streamlit run shg_chatbot.py
+
+

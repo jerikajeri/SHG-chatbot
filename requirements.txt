@@ -1,6 +1,8 @@
 streamlit
-google-generativeai
-speechrecognition
+google-genai
+SpeechRecognition
 gTTS
-googletrans==4.0.0-rc1
+deep-translator
+langdetect
 pyaudio
+python-dotenv

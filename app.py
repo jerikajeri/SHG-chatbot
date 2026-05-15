@@ -7,7 +7,7 @@ import os
 from googletrans import Translator
 
 # Setup Gemini API Key
-genai.configure(api_key="AIzaSyBNkjzDmJjXPcgKz9uhA_489KQ5Qx6TGOM")
+genai.configure(api_key="YOUR API KEY")
 model = genai.GenerativeModel('gemini-1.5-pro-latest')
 
 translator = Translator()

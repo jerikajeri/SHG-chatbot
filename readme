@@ -1,49 +1,81 @@
-SHG Multilingual Chatbot
+AI-Powered Multilingual Chatbot for SHG Members
 
-An AI-powered multilingual chatbot built for rural women's **Self-Help Groups (SHGs)** in India. It helps users access information about government schemes, loans, savings, and financial literacy — in **any language**, with **voice input and output**.
+Project Overview
+
+The AI-Powered Multilingual Chatbot for Self-Help Group (SHG) Members is a user-friendly application designed to provide personalized information and guidance to SHG members, particularly women in rural areas.
+
+The system collects basic user details such as name, age, gender, state, district, occupation, monthly income range, area of assistance required, and preferred language. Based on the user's profile and question, the chatbot provides relevant guidance on government schemes, SHG loans, savings, financial literacy, entrepreneurship, training, and livelihood opportunities.
+
+The application uses Google Gemini AI to understand user queries and generate simple and practical responses. It supports multiple languages including English, Tamil, Hindi, Telugu, Malayalam, and Kannada. The system also provides voice input and voice output for easier interaction.
+
+Objectives
+
+- Provide information and guidance to SHG members.
+- Provide personalized responses based on user profile details.
+- Support multiple Indian languages.
+- Provide information about SHG loans and government schemes.
+- Improve access to financial and livelihood information.
+- Provide voice-based interaction for easier accessibility.
+- Create a simple and user-friendly chatbot interface.
 
 Features
 
-Multilingual — Ask in Tamil, Hindi, Telugu, English, or any language
-Voice Input — Speak your question using your microphone
-Voice Output — Hear the answer read aloud in your language
-Gemini AI — Powered by Google's Gemini 1.5 Pro
-Chat History — View the full conversation in the session
-Simple UI — Built with Streamlit for easy access
+SHG Member Profile
+The application collects:
 
-Tech Stack
+- Name
+- Age
+- Gender
+- State
+- District
+- Occupation
+- Monthly Income Range
+- Required Assistance
+- Preferred Language
 
-*Component        
-    Frontend / UI  
-    AI Model        
-    Voice Input    
-    Voice Output    
-    Translation     
-    Language Detect 
+AI Chatbot
+The chatbot uses Google Gemini AI to answer questions related to:
 
-*Technology
-    Streamlit 
-    Google Gemini 1.5 Pro
-    SpeechRecognition + PyAudio 
-    gTTS (Google Text-to-Speech)
-    deep-translator (Google Translate)
-    langdetect 
+- Government schemes
+- SHG loans
+- Savings
+- Financial literacy
+- Microfinance
+- Entrepreneurship
+- Livelihood opportunities
+- Training
+- Employment
 
-Setup & Installation
+Multilingual Support
+The chatbot supports:
 
-1. Clone the repository
-git clone https://github.com/Aslin-Jerika/shg-multilingual-chatbot.git
-cd shg-multilingual-chatbot
+- English
+- Tamil
+- Hindi
+- Telugu
+- Malayalam
+- Kannada
 
-2. Install dependencies
-pip install -r requirements.txt
+The user's preferred language is selected during profile creation and is used for the chatbot response.
 
-3. Set your Gemini API Key
-Create a `.env` file in the project root:
-GEMINI_API_KEY=your_actual_api_key_here
-Get your free API key at: https://makersuite.google.com/app/apikey
+Voice Input
+Users can ask questions using their microphone through the SpeechRecognition library.
 
-4. Run the app
-streamlit run shg_chatbot.py
+Voice Output
+The chatbot can read the generated response aloud using Google Text-to-Speech (gTTS).
 
+Chat History
+Previous questions and chatbot responses are displayed in the conversation section.
 
+Technologies Used
+
+Technology and Purpose 
+Python - Main programming language 
+Streamlit - Web application interface 
+Google Gemini AI - AI response generation 
+Google GenAI - Gemini API integration 
+Google Translator - Language translation 
+LangDetect - Language detection 
+SpeechRecognition - Voice input 
+gTTS - Text-to-speech output 
+python-dotenv - Environment variable management 

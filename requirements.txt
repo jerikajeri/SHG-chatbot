@@ -1,8 +1,8 @@
 streamlit
 google-genai
+python-dotenv
 SpeechRecognition
 gTTS
 deep-translator
 langdetect
-pyaudio
-python-dotenv
+PyAudio
